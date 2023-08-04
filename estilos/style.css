@@ -45,6 +45,9 @@ section#login > div#imagem {
     background-size: cover;
     background-position: left center;
     height: 200px;
+
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 
 section#login > div#formulario {
